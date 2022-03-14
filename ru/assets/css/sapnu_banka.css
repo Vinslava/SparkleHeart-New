@@ -1,0 +1,340 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+/* Gold vector image of girl playing a violin content */
+.gold-image{
+    background-image: url("../img/Sapnu_Banka/Gold_Girl.jpg");
+    width: 100%;
+    height: 768px;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Play button positioning */
+.play-button-positioning{
+    padding-top: 341.5px;
+}
+/* Goal content*/
+.goal-width{
+    padding-left: 19%;
+    padding-right: 19%;
+}
+.goal-header{
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-top: 150px;
+}
+.sun-align{
+    text-align: right;
+    padding-right: 62px;
+    padding-top: 90px;
+}
+.goal-description{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding-top: 120px; 
+    text-align: left;
+}
+/* mission content */
+.mission-description-1{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-top: 50px;
+}
+.mission-description-2{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.mission-description-3{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.golden-background{
+    background-image: url("../img/Sapnu_Banka/Gold_Background.png");
+    width: 100%;
+    height: 533px;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+}
+.goal-img-1{
+    height: 300px;
+    padding-top: 75px;
+}
+/* sapņus atlasīs content*/
+.dream-sel-width{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+}
+.dream-sel-img{
+    height: 150px;
+    width: auto;
+}
+.dream-sel-description{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 30px;
+    color: #2F4858;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 992px) {
+    /* Gold vector image of girl playing a violin content */
+    .gold-image{
+        background-image: url("../img/Sapnu_Banka/Gold_Girl.jpg");
+        width: 100%;
+        height: 432px;
+        left: 0px;
+        border-radius: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Play button positioning */
+    .play-button-positioning{
+        padding-top: 173.5px;
+    }
+    /* goal content*/
+    .goal-width{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .sun-align{
+        text-align: right;
+        padding-right: 62px;
+        padding-top: 90px;
+    }
+    .goal-description{
+        font-family: Mont-400;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        padding-top: 97px; 
+        text-align: left;
+    }
+    /* mission content*/
+    .mission-description-2{
+        font-family: Mont-500;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .mission-description-3{
+        font-family: Mont-500;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    /* sapņus atlasīs content*/
+    .dream-sel-width{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 60px;
+    }
+    .dream-sel-img{
+        height: 100px;
+        width: auto;
+    }
+    .dream-sel-description{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 30px;
+        color: #2F4858;
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+}
+/* for mobile devices 767px and bellow */
+@media (max-width: 767px) {
+    /* Gold vector image of girl playing a violin content */
+    .gold-image{
+        background-image: url("../img/Sapnu_Banka/Gold_Girl.jpg");
+        width: 100%;
+        height: 180px;
+        left: 0px;
+        border-radius: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Play button positioning */
+    .play-button-positioning{
+        padding-top: 47.5px;
+    }
+    /* Goal content*/
+    .goal-header{
+        font-family: Oswald;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 120px;
+    }
+    .goal-width{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .sun-align{
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+    .goal-description{
+        font-family: Mont-400;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* mission content */
+    .mission-description{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 25px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .golden-background{
+        background-image: url("../img/Sapnu_Banka/Gold_Background.png");
+        width: 100%;
+        height: 471px;
+        left: 0px;
+        border-radius: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 120px;
+    }
+    .goal-img-1{
+        height: 250px;
+        padding-top: 75px;
+    }
+    .mission-description-2{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        padding-top: 29px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .mission-description-3{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    /* sapņus atlasīs content*/
+    .dream-sel-description{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 25px;
+        color: #2F4858;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}

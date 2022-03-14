@@ -1,0 +1,501 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+/* 99 ievesmas stāsti content */
+.inspo-99-header{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-family: Oswald;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+.inspo-99-description{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+/*gold block content*/
+.gold-block-content-format{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.popup-99-img{  /*popup image*/
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background: rgba(47, 72, 88, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.popup-99-img span{ /* pop up x symbol*/
+    position: absolute;
+    top: 0;
+    font-weight: 350;
+    right: 10px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup-99-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 912px;
+    object-fit: cover;
+}
+.popup-99-img p{
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.number-font{
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-top: 90%;
+    color: white;
+}
+.golden-block-img-1{
+    background-image: url("../img/99_Iedvesmas_Stasti/1.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-2{
+    background-image: url("../img/99_Iedvesmas_Stasti/2.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-3{
+    background-image: url("../img/99_Iedvesmas_Stasti/3.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-4{
+    background-image: url("../img/99_Iedvesmas_Stasti/4.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-5{
+    background-image: url("../img/99_Iedvesmas_Stasti/AB.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-6{
+    background-image: url("../img/99_Iedvesmas_Stasti/6.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-7{
+    background-image: url("../img/99_Iedvesmas_Stasti/7.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-8{
+    background-image: url("../img/99_Iedvesmas_Stasti/8.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-9{
+    background-image: url("../img/99_Iedvesmas_Stasti/9.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-10{
+    background-image: url("../img/99_Iedvesmas_Stasti/10.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-11{
+    background-image: url("../img/99_Iedvesmas_Stasti/11.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-12{
+    background-image: url("../img/99_Iedvesmas_Stasti/12.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-13{
+    background-image: url("../img/99_Iedvesmas_Stasti/13.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-14{
+    background-image: url("../img/99_Iedvesmas_Stasti/14.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-15{
+    background-image: url("../img/99_Iedvesmas_Stasti/15.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-16{
+    background-image: url("../img/99_Iedvesmas_Stasti/16.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-17{
+    background-image: url("../img/99_Iedvesmas_Stasti/17.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-18{
+    background-image: url("../img/99_Iedvesmas_Stasti/18.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.golden-block-img-default{
+    background-image: url("../img/99_Iedvesmas_Stasti/default.png");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*button*/
+.view-more-format{
+    width: 233px;
+    height: 50px;
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.view-more-format:hover {                  
+    color: white !important; /* changes the navigation-bar text color when a mouse hovers over */
+    background-color: #ffc107 !important;
+}
+/*sparkle heart komanda content*/
+.team-format{
+    width: 45%;
+}
+.team-format-2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.team-header{
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-top: 150px;
+    padding-bottom: 15px;
+}
+.team-description{
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+.team-img-1{
+    background-image: url("../img/99_Iedvesmas_Stasti/Juris.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-img-2{
+    background-image: url("../img/99_Iedvesmas_Stasti/Girts.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-img-3{
+    background-image: url("../img/99_Iedvesmas_Stasti/Janis.jpg");
+    width: 100%;
+    height: auto;
+    left: 0px;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-font-1{
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 300px;
+    margin: 0 0 0;
+    color: white;
+}
+.team-font-2{
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 992px) {
+    /*gold block content*/
+    .gold-block-content-format{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .popup-99-img img{
+        width: 80%;
+    }
+    .popup-99-img p{
+        font-family: Oswald;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 54%;
+    }
+    .popup-99-img p{
+        width: 80%;
+    }
+    /*sparkle heart komanda content*/
+    .team-format{
+        width: 80%;
+    }
+    .team-format-2{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+/* for mobile devices 767px and bellow */
+@media (max-width: 767px) {
+    /* 99 ievesmas stāsti content */
+    .inspo-99-header{
+        padding-top: 200px;
+        padding-bottom: 60px;
+        font-family: Oswald;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+    }
+    .inspo-99-description{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+    }
+    /*gold block content*/
+    .gold-block-content-format{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .popup-99-img img{
+        width: 91%;
+    }
+    .popup-99-img p{
+        font-family: Oswald;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 65%;
+    }
+    /*sparkle heart komanda content*/
+    .team-format{
+        width: 90%;
+    }
+    .team-format-2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .team-header{
+        font-family: Oswald;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-top: 120px;
+        padding-bottom: 15px;
+    }
+    .team-description{
+        font-family: Mont-500;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+    }
+}

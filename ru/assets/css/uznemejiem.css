@@ -1,0 +1,34 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+/* uzņēmējiem content */
+.enterpreneur-format{
+    width: 60%;
+}
+.enterpreneur-description{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 992px) {
+    /* uzņēmējiem content */
+    .enterpreneur-format{
+        width: 80%;
+    }
+}

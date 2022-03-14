@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>БлескСердце: Сторонники мечты</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/BlackLogo 3.jpg">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/ideja.css">
+    <link rel="stylesheet" href="assets/css/piesaki_sapni.css">
+    <link rel="stylesheet" href="assets/css/uznemejiem.css">
+    <link rel="stylesheet" href="assets/css/sapnus_atbalsta.css">
+</head>
+<body>
+    <!-- Navigation bar content -->
+    <!-- Full navigation bar is viewable on large (desktop) and extra-large devices-->
+    <nav class="navbar navbar-expand-lg navbar-light py-1" style="padding: 0px 5%;"> 
+        <a href="index.html" class="navbar-brand">
+            <img src="assets/img/SH_Desktop.jpg" width="100%" height="96px" alt="SparkleHeart">
+        </a>
+        <!-- A button that will appear on medium devices (example: smartphones and tablets).
+            It will toggle the dropdown/collapse menu function -->
+        <button class="navbar-toggler hidden-lg custom-toggler" data-toggle="collapse" data-target="#target"> 
+            <span class="navbar-toggler-icon"></span> <!-- drop down toggler icon -->
+        </button>  
+        <div class="collapse navbar-collapse" id="target">
+            <ul class="navbar-nav ml-auto">
+                 <!-- Element is hidden on large & extra-large devices-->
+                 <li class="nav-item text-center">
+                    <a href="../Sapnus_Atbalsta.html" style="display: inline;" class="nav-link nav-link-hover d-lg-none d-xl-none">&nbsp; LV &nbsp;</a>
+                    <a href="../eng/Dream_Support.html" style="display: inline;" class="nav-link nav-link-hover d-lg-none d-xl-none">&nbsp; ENG &nbsp;</a>
+                    <a href="Sapnus_Atbalsta.html" style="display: inline;" class="nav-link nav-link-hover d-lg-none d-xl-none nav-item active">&nbsp; RU &nbsp;</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Ideja.html" class="nav-link nav-link-hover text-center">Идея</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Piesaki_Sapni.html" class="nav-link nav-link-hover text-center">Применить мечту</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Uznemejiem.html" class="nav-link nav-link-hover text-center">Для предпринимателей</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Sapnu_Banka.html" class="nav-link nav-link-hover text-center">Банк мечты</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Sapnus_Atbalsta.html" class="nav-link nav-link-hover text-center nav-item active">Сторонники мечты</a>
+                </li>
+                <li class="nav-item">
+                    <a href="99_Iedvesmas_Stasti.html" class="nav-link nav-link-hover text-center">99 вдохновляющих историй</a>
+                </li>
+                <!-- Element is only visible on large & extra-large devices-->
+                <li class="nav-item">
+                    <a href="../Sapnus_Atbalsta.html" class="nav-link nav-link-hover text-center d-none d-lg-block d-xl-block">RU</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ripped image effect -->
+    <div class="container-fluid">
+        <img class="Wave-img" src="assets/img/Wave.png" width="100%" height="34.93px"/>
+    </div>
+    <!-- sapņus atbalsta content -->
+    <div class="container-fluid enterpreneur-format">
+        <div class="text-center">
+            <h1 class="dream-support-header">ПОДДЕРЖКА МЕЧТЫ</h1>
+            <p class="dream-support-description">
+                Партнеры по сотрудничеству — это компании, которые ежедневно используют товары или услуги.
+                 интегрировали бренд SparkleHeart и делят с ним определенную часть своего дохода.
+            </p>
+        </div>
+    </div>
+    <!-- maps content -->
+    <div class="container-fluid text-center maps-content-format-1">
+        <div class="row maps-content-format-2" style="margin: 0 0 0 0;">
+            <div class="col-lg-6 col-md-6 col-12" >
+                <div class="col-12">
+                    <h1 class="maps-font-1">Тип компании</h1>
+                    <div class="select-box-container">
+                        <select id="selectBoxType">
+                            <option disabled selected style="font-weight: 700;">Bыберите</option>
+                            <option value="Food">Кейтеринг</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="col-12">
+                    <h1 class="maps-font-1">Местонахождение компании</h1>
+                    <div class="select-box-container">
+                        <select id="selectBoxPlace" onchange="MapFunction();">
+                            <option disabled selected style="font-weight: 700;">Bыберите</option>
+                            <option value="Riga">Рига</option>
+                            <option value="Jelgava">Елгава</option>
+                            <option value="Ogre">Огр</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- "if ēdināšana" is picked this should appear-->
+    <div id="PurchContainer" class="container-fluid d-none d-xs-none  purch-container">
+        <div class="row catering-content-format-1" style="margin: 0 0 0 0;">
+            <!-- first row-->
+            <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block" style="text-align: right;"> <!-- visible only on md, lg, xl devices-->
+                <img src="assets/img/Sapnu_Banka/Purch.jpg" height="120px" style="padding-right: 100px;">
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block">
+                <h1 class="catering-header">PURCH ресторан</h1>
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block">
+                <p class="catering-description">+371 25425254 <br>Yлица Дзелзавас 51A</p>
+            </div>
+        </div>
+    </div>
+    <div id="KurtsContainer" class="container-fluid d-none " style="padding-top: 33px;">
+        <div class="row catering-content-format-1" style="margin: 0 0 0 0;">
+            <!-- second row-->
+            <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block" style="text-align: right;">
+                <img src="assets/img/Sapnu_Banka/Kurts.jpg" height="100px" style="padding-right: 100px;">
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block">
+                <h1 class="catering-header">Курц кофе</h1>
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block">
+                <p class="catering-description">+371 23202079 <br>Yлица Цесис 20, улица Тербатас 2i</p>
+            </div>
+        </div>
+    </div>
+    <!-- map itself-->
+    <!-- Riga Map -->
+    <iframe id="DefaultRigaMap" src="https://snazzymaps.com/embed/376635" width="100%" height="648px" style="border:none;padding-top: 60px;"></iframe>
+    <!-- Jelgava Map-->
+    <iframe class="d-none" id="DefaultJelgavaMap" src="https://snazzymaps.com/embed/377321" width="100%" height="648px" style="border:none; padding-top: 60px;"></iframe>
+    <!-- Ogre Map-->
+    <iframe class="d-none" id="DefaultOgreMap" src="https://snazzymaps.com/embed/377325" width="100%" height="648px" style="border:none; padding-top: 60px;"></iframe>
+    <!-- Riga Food Map-->
+    <iframe class="d-none" id="RigaFoodMap" src="https://snazzymaps.com/embed/377327" width="100%" height="648px" style="border:none; padding-top: 60px;"></iframe>
+    <!-- wavy image content -->
+     <div class="container-fluid" >
+        <img class="Wave-img-5" src="assets/img/WaveBlue.png" width="100%" height="34.93px"/>
+    </div>
+    <!-- "More details" content -->
+    <footer class="container-fluid" style="background-color: #2f4858; margin-top: -30px;  margin-bottom: -25px;">
+        <div class="row" style="padding-top: 30px; margin: 0 0 0 0;"> 
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-12" style="padding-bottom: 70px; text-align: left;">
+                    <img class="img-responsive" src="assets/img/golden.png" height="182px" width="182px">
+                </div>
+                <div class="d-none d-lg-none d-block footer-font-3"><h3 style="text-align: left; margin-top:-60px; padding-left: 17px;">Юрис Гогулис</h3></div>
+                <div class="d-none d-lg-block col-12 footer-font-1"><p style="margin-top:-15px;padding-top:0;">&copy; БлескСердце 2020.</p></div>
+                <div class="d-none d-lg-block col-12 footer-font-1"><p style="margin-top: -15px;padding-top:0;">Все права защищены</p></div>
+                <div class="d-none d-lg-none d-md-block col-12 footer-font-1" style="padding: 0px 0px;"><p style="padding: 0; text-align: left;">&copy; БлескСердце 2020. Все права защищены</p></div>
+            </div>
+            <!-- "d-none d-lg-block" - div block will be hidden on all devices except for lg and sm-->
+            <div class="d-none d-lg-block d-sm-none col-lg-3 col-sm-12 footer-font-2"> 
+                <div class="col-12"><p>Идея</p></div>
+                <div class="col-12"><p>Применить мечту</p></div>
+                <div class="col-12"><p>Для предпринимателей</p></div>
+                <div class="col-12"><p>Банк мечты</p></div>
+                <div class="col-12"><p>Мечты поддерживаются</p></div>
+                <div class="col-12"><p>Истории вдохновения</p></div>
+            </div>
+            <div class="d-none d-lg-block d-sm-none col-lg-3 col-sm-12">
+                <div class="col-12 footer-font-3"><h3>Ассоциация SparkleHeart</h3></div>
+                <div class="col-12 footer-font-4"><p>Регистрационный номер 40008293119</p></div>
+                <div class="col-12 footer-font-4"><p>Банк: SWEDBANK A/S</p></div>
+                <div class="col-12 footer-font-4"><p>LV52HABA0551047652465</p></div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="text-align: right">
+                <div class="col-12 footer-font-3 d-none d-lg-block" ><h3 class="footer-mobile-align">Юрис Гогулис</h3></div>
+                <div class="col-12 footer-font-4"><p class="footer-mobile-align">juris@sparkleheart.org</p></div>
+                <div class="col-12 footer-font-4"><p class="footer-mobile-align">+37126890034</p></div>
+                <div class="col-12 footer-font-4"><p class="footer-mobile-align">улица Бикерниеку 24a - 5, LV-1006</p></div>
+                <div class="d-none d-lg-none d-block col-12 footer-font-4"><p class="footer-mobile-align" style="font-weight: 700;">Посмотреть свойства</p></div>
+                <!-- bootstrap icons -->
+                <div class="col-12 footer-mobile-align" style="padding-top:52px; color: #FFFFFF;">
+                     <svg  width="2em" height="2em" style="margin-right: 27px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                    <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                </div>
+                <div class="d-none d-sm-none d-block col-12 footer-font-1" style="padding-top: 20px;"><p style="padding: 0; text-align: left;">&copy; БлескСердце 2020. Все права защищены</p></div>
+                <div class="col-12 footer-font-5 footer-mobile-align"><p style="padding-top: 10px">Политика конфиденциальности</p></div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- My Script link -->
+    <script src="assets/js/sapnus_atbalsta.js"></script>
+</body>
+</html>
