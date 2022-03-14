@@ -1,0 +1,108 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+/*404 content*/
+.error-format{
+    width: 60%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.error-header-1{
+    font-family: Oswald;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: white;
+}
+.error-header-2{
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+.error-description{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 10px;
+}
+.error-button{
+    width: 233px;
+    height: 50px;
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffcb66 !important;
+    margin-top: 50px;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 992px) {
+    /*404 content*/
+    .error-format{
+        width: 80%;
+        padding-top: 140px;
+    }
+}
+/* for mobile devices 767px and bellow */
+@media (max-width: 768px) {
+    /*404 content*/
+    .error-format{
+        width: 90%;
+        padding-top: 120px;
+    }
+    .error-header-1{
+        font-family: Oswald;
+        font-size: 76px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 142px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: white;
+    }
+    .error-header-2{
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+    }
+    .error-description{
+        font-family: Mont-400;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 10px;
+    }
+}

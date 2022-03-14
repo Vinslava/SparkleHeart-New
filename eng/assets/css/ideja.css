@@ -1,0 +1,249 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+nav{
+    overflow: hidden;
+}
+/*Ideja content*/
+.idea-header{
+    font-family: Oswald;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-bottom: 60px;
+    padding-top: 200px;
+}
+.idea-description{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.idea-format{
+    height: 600px;
+    border-radius: nullpx;
+}
+/*Guy image content*/
+.guy-image{
+    background-image: url("../img/Ideja/GuyHat.jpg");
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    height: 705px;
+}
+.image-description{
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    position: absolute;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 35%;
+    margin-bottom: 0px;
+}
+/* quote content */
+.quote-format{
+    padding: 140px 0px;
+    width: 42%;
+}
+.quote-author{
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.quote-occupation{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.quote{
+    font-family: Mont-400;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.btn-light, .btn-light:hover, .btn-light:active, .btn-light:visited {
+    background-color: white !important;
+    border-color: white !important;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 992px) {
+    /*Ideja content*/
+    .idea-header{
+        font-family: Oswald;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 71px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-bottom: 60px;
+        padding-top: 200px;
+    }
+    .idea-description{
+        font-family: Mont-400;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+    .idea-format{
+        height: 600px;
+        border-radius: nullpx;
+    }
+    /*Guy image content*/
+    .guy-image{
+        background-image: url("../img/Ideja/GuyHat.jpg");
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        height: 620px;
+    }
+    .image-description{
+        font-family: Oswald;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        position: absolute;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 35%;
+    }
+    /* quote content */
+    .quote-format{
+        padding-top: 150px;
+        width: 80%;
+    }
+}
+/* for mobile devices 767px and bellow */
+@media (max-width: 768px) {
+    /*Ideja content*/
+    .idea-header{
+        font-family: Oswald;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-bottom: 60px;
+        padding-top: 200px;
+    }
+    .idea-description{
+        font-family: Mont-400;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .idea-format{
+        height: 600px;
+        border-radius: nullpx;
+    }
+    /*Guy image content*/
+    .guy-image{
+        background-image: url("../img/Ideja/GuyHat.jpg");
+        width: 100%;
+        height: 475px;
+        border-radius: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image-description{
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        position: absolute;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 49%;
+    }
+    /* quote content */
+    .quote-format{
+        padding-top: 150px;
+        width: 85%;
+    }
+    .quote-author{
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .quote-occupation{
+        font-family: Mont-400;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .quote{
+        font-family: Mont-400;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+}
