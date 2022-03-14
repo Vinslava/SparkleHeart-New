@@ -1,0 +1,675 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+/* body cotent */
+body{
+    background-color: white;
+}
+/* removes bootstrap css default container padding*/
+.container-fluid{
+    padding: 0px 0px;
+}
+/* navigation bar content */
+.nav{
+    padding: 0px;
+}
+.nav-logo{
+    margin-top: -4px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    padding: 0rem 3rem;
+    z-index: 2;
+    width: 100%;
+}
+.custom-toggler .navbar-toggler-icon{
+    background-image: url("../img/list.svg"); /*replaces navbar icon*/
+}  
+/*removes navbar icon border/shadow/color*/
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.nav-link {
+    color: #060606 !important; /* changes the navigation-bar text color */
+    font-family: Mont-500; /* changes the navigation-bar font */
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nav-link-hover:hover {                  
+    color: #FFA800 !important; /* changes the navigation-bar text color when a mouse hovers over */
+}
+.nav-item.active
+{
+    border-bottom: 3px solid #FFA800;
+    font-weight: bold;
+}
+/* ripped images */
+.Wave-img-1{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    padding-top: 85px;
+}
+.Wave-img-2{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+.Wave-img-3{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    transform:rotate(180deg);
+    margin-top: -53px;
+}
+.Wave-img-4{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    transform:rotate(180deg);
+}
+.Wave-img-5{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    transform:rotate(180deg);
+    margin-top: -40px;
+}
+.vector-image-2{
+    width: 100%;
+    height: 34.93px;
+    border-radius: 0px;
+    margin-top: 150px;
+    position:relative; 
+    top: 0px;
+    z-index: 1
+}
+.vector-image-3{
+    width: 100%;
+    height: 34.93px;
+    border-radius: 0px;
+    margin-top: -80px;
+    position:relative; 
+    top: 0px;
+    z-index: 1
+}
+.vector-image-4{
+    width: 100%;
+    height: 34.93px;
+    border-radius: 0px;
+    margin-top: 150px;
+    position:relative; 
+    top: 0px;
+    z-index: 1
+}
+.vector-image-5{
+    width: 100%;
+    height: 34.93px;
+    transform:rotate(180deg);
+    border-radius: 0px;
+    margin-top: -180px;
+    position:relative; 
+    top: 0px;
+    z-index: 1
+}
+/*cookie content*/
+.cookie-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2f4858;
+    margin: 0% 20%;
+    padding: 35px 46px;
+    z-index: 100;
+    transition: 400ms;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 -2px 5px rgba(19, 30, 36, 0.5);
+}
+.cookie-description{
+    font-family: Mont-400;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 0px 0px 0px;
+}
+.cookie-button{
+    width: 131px;
+    height: 34px;
+    background-color: #ffa800 !important;
+    font-family: Mont-400;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+/* girl sitting in chair video image */
+.index-video-content{
+    margin-top: -110px;
+}
+.index-video-img{
+    max-width: 100%;
+    height: auto;
+}
+/* introductory text block */
+.header-text{
+    border-radius: nullpx;
+    margin: 150px 0px;
+    color: #2F4858;
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding: 0px 26%;
+}
+/* image collage */
+.image-collage{
+    max-width: 100%;
+    height: auto;
+}
+.collage-container{
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+/* two sections content */
+.two-section-font{
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.two-section-content{
+    margin-top: 90px; 
+    width: 85%;
+}
+.two-section-button{
+    width: 233px;
+    height: 50px;
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* contact us formatting */
+.contact-us{
+    padding: 150px 0px;
+    width: 50%;
+}
+.contact-us-font-1{
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.form-control::placeholder{ /* changes the fonts inside the form*/
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+.form-font{
+    font-family: Mont-400;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.form-button{
+    width: 182px;
+    height: 62px;
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* form formatting */
+.form-control{
+    height: 43px;
+    background-color: #e7e7e7;
+}
+input::-webkit-input-placeholder {
+    color:#2F4858!important;
+    font-family: Mont-400;
+}
+.form-group {
+    margin-bottom: 0px!important;
+ }
+/* supporters content */
+.supporters-1{
+    background-image: url("../img/teikums.png");
+    padding: 15px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.supporters-2{
+    background-image: url("../img/sem.png");
+    padding: 15px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.supporters-3{
+    background-image: url("../img/Citybee.png");
+    padding: 15px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.supporters-4{
+    background-image: url("../img/linear.png");
+    padding: 15px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.supporters{
+    padding-top: 69px; 
+    margin: 0 0 0 0; 
+    padding-left: 10%; 
+    padding-right: 10%;
+}
+.supporters-font{
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+.supporters-format{
+    margin: 0 0 0 0; 
+    padding: 0px 10%;
+}
+.supporters-main{
+    padding-bottom: 110px; 
+    background: #FFCB66;
+    margin-top: -7px;
+    margin-bottom: 0px;
+}
+/* footer content */
+.footer-font-1{
+    font-family: Mont-500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer-font-2{
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer-font-3{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer-font-4{
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer-font-5{
+    font-family: Mont-500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 991px) {
+    /*navbar content*/
+    .nav-item
+    {
+        padding-left: 33%; 
+        padding-right: 33%;
+    }
+    .nav-link {
+        color: #060606 !important;
+        font-family: Mont-500;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 40px;
+    }
+    /*nav logo*/
+    .navbar-brand img{
+        width: 128px;
+        height: 81px;
+    }
+    /*ripped image*/
+    .Wave-img{
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        padding-top: 80px;
+    }
+    /* ripped images */
+    .Wave-img-1{
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        padding-top: 85px;
+    }
+    .Wave-img-3{
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        transform:rotate(180deg);
+        margin-top: -45px;
+    }
+    /*cookie content*/
+    .cookie-container{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #2f4858;
+        margin: 0% 10%;
+        padding: 35px 46px;
+        z-index: 100;
+        transition: 400ms;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0 -2px 5px rgba(19, 30, 36, 0.5);
+    }
+    /* girl sitting in chair video image */
+    .index-video-content{
+        margin-top: -50px;
+    }
+    /* introductory text block */
+    .header-text{
+        border-radius: nullpx;
+        margin: 150px 0px;
+        color: #2F4858;
+        font-family: Mont-400;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 22px;
+        letter-spacing: 0em;
+        padding: 0px 9%;
+    }
+    /* image collage */
+    .collage-container{
+        margin-top: -18px;
+    }
+    /* two sections content */
+    .two-section-font{
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .two-section-content{
+        margin-top: 90px; 
+        width: 95%;
+    }
+    /* contact us formatting */
+    .contact-us{
+        width: 80%;
+    }
+    /* supporters content*/
+    .supporters{
+        padding-top: 69px; 
+        margin: 0 0 0 0; 
+        padding-left: 10%; 
+        padding-right: 10%;
+    }
+    .supporters-font{
+        font-family: Oswald;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    /* footer content */
+    .footer-font-1{
+        font-family: Mont-500;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .footer-font-2{
+        font-family: Mont-500;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .footer-font-3{
+        font-family: Mont-500;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .footer-font-4{
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    .footer-font-5{
+        font-family: Mont-500;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    .footer-mobile-align{
+        text-align: right;
+    }
+}
+/* for mobile devices 767px and bellow */
+@media (max-width: 767px) {
+    /*navbar content*/
+    .nav-item
+    {
+        padding-left: 16%; 
+        padding-right: 16%;
+    }
+    .nav-link {
+        color: #060606 !important;
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        padding-top: 40px;
+    }
+    .navbar-brand img{
+        width: 78px;
+        height: 49px;
+    }
+    /* ripped images */
+    .Wave-img-1{
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        padding-top: 55px;
+    }
+    .Wave-img-3{
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        transform:rotate(180deg);
+        margin-top: -35px;
+    }
+    /*cookie content*/
+    .cookie-container{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #2f4858;
+        margin: 0% 3%;
+        padding: 20px 30px;
+        z-index: 100;
+        transition: 400ms;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0 -2px 5px rgba(19, 30, 36, 0.5);
+    }
+    /* girl sitting in chair video image */
+    .index-video-content{
+        margin-top: -15px;
+    }
+    /* introductory text block */
+    .header-text{
+        border-radius: nullpx;
+        margin: 150px 0px;
+        color: #2F4858;
+        font-family: Mont-400;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        padding: 0px 7%;
+    }
+    /* image collage */
+    .collage-container{
+        margin-top: -12px;
+    }
+    /* two sections content */
+    .two-section-font{
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    /*supporters content*/
+    .supporters-format{
+        margin: 0 0 0 0; 
+        padding: 0px 5%;
+    }
+    .footer-mobile-align{
+        text-align: left;
+    }
+    .footer-font-1{
+        font-family: Mont-500;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13.41px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,331 @@
+/* text style import from https://fonts.google.com/*/
+@font-face{
+    src: url(../fonts/Montserrat-400\ Regular.ttf);
+    font-family: Mont-400;
+}
+@font-face{
+    src: url(../fonts/Montserrat-500\ Medium.ttf);
+    font-family: Mont-500;
+}
+@font-face{
+    src: url(../fonts/Oswald-500\ Medium.ttf);
+    font-family: Oswald;
+}
+/* Ievads content */
+.introductory-header{
+    font-family: Oswald;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-bottom: 60px;
+    padding-top: 200px;
+}
+.introductory-description{
+    font-family: Mont-400;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+/* Piesaki sapni content*/
+.dream-header{
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+    padding-top: 60px;
+}
+.dream-description{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+.dream-format{
+    padding-left: 20%; 
+    padding-right: 20%;
+}
+.dream-button{
+    width: 233px;
+    height: 50px;
+    font-family: Mont-500;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*hidden form*/
+.hidden-form-header{
+    font-family: Mont-500;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFA800;
+    margin-bottom: 0px;
+}
+.hidden-form-description{
+    font-family: Mont-400;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #FFA800;
+}
+/* Ripped image */
+.ripped-dream-vector-1{
+    width: 100%;
+    height: 34.93px;
+    margin-top: 150px;
+    border-radius: 0px;
+    position:relative; 
+    top: 0px;
+    z-index: 1
+}
+.ripped-dream-vector-2{
+    width: 100%;
+    height: 34.93px;
+    border-radius: 0px;
+    margin-top: -45px;
+    position:relative; 
+    top: 0px;
+    z-index: 1
+}
+/*collage content*/
+.dream-collage-1{
+    background-image: url("../img/Piesaki_Sapni/Violin.jpg");
+    height: 355px;
+    width: auto;
+    padding: 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dream-collage-2{
+    background-image: url("../img/Piesaki_Sapni/Group_1.jpg");
+    height: 177.5px;
+    width: auto;
+    padding: 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dream-collage-3{
+    background-image: url("../img/Piesaki_Sapni/Forest_Walk.jpg");
+    height: 177.5px;
+    width: auto;
+    padding: 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dream-collage-4{
+    background-image: url("../img/Piesaki_Sapni/Crown.jpg");
+    height: 355px;
+    width: auto;
+    padding: 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dream-collage-5{
+    background-image: url("../img/Piesaki_Sapni/Group_2.jpg");
+    height: 355px;
+    width: auto;
+    padding: 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* for tablet devices 991px and bellow */
+@media (max-width: 992px) {
+    /* Ievads content */
+    .introductory-format{
+        width: 80%;
+    }
+    /* Piesaki sapni content */
+    .dream-format{
+        padding-left: 8%; 
+        padding-right: 8%;
+    }
+    /*collage content*/
+    .dream-collage-1{
+        background-image: url("../img/Piesaki_Sapni/Violin.jpg");
+        height: 200px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-2{
+        background-image: url("../img/Piesaki_Sapni/Group_1.jpg");
+        height: 100px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-3{
+        background-image: url("../img/Piesaki_Sapni/Forest_Walk.jpg");
+        height: 100px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-4{
+        background-image: url("../img/Piesaki_Sapni/Crown.jpg");
+        height: 200px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-5{
+        background-image: url("../img/Piesaki_Sapni/Group_2.jpg");
+        height: 200px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* for mobile devices 767px and bellow */
+@media (max-width: 767px) {
+    /* Ievads content */
+    .introductory-header{
+        font-family: Oswald;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-bottom: 20px;
+        padding-top: 180px;
+    }
+    .introductory-description{
+        font-family: Mont-400;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+    }
+    /* Piesaki sapni content*/
+    .dream-header{
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+        padding-top: 60px;
+    }
+    .dream-description{
+        font-family: Mont-400;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2F4858;
+    }
+    .dream-format{
+        padding-left: 3%; 
+        padding-right: 3%;
+    }
+    .dream-button{
+        width: 233px;
+        height: 50px;
+        font-family: Mont-500;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    /*collage content*/
+    .dream-collage-1{
+        background-image: url("../img/Piesaki_Sapni/Violin.jpg");
+        height: 200px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-2{
+        background-image: url("../img/Piesaki_Sapni/Group_1.jpg");
+        height: 100px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-3{
+        background-image: url("../img/Piesaki_Sapni/Forest_Walk.jpg");
+        height: 100px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-4{
+        background-image: url("../img/Piesaki_Sapni/Crown.jpg");
+        height: 150px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dream-collage-5{
+        background-image: url("../img/Piesaki_Sapni/Group_2.jpg");
+        height: 150px;
+        width: auto;
+        padding: 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
